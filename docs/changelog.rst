@@ -15,6 +15,12 @@ case, both modules must use the same nanobind ABI version, or they will be
 isolated from each other. Releases that don't explicitly mention an ABI version
 below inherit that of the preceding release.
 
+Unreleased
+----------
+
+- The implicit :cpp:func:`.none() <arg::none>` annotation now also applies to
+  ``std::nullptr_t`` and ``std::monostate``-typed arguments
+
 Version 2.12.0 (Feb 25, 2025)
 -----------------------------
 
